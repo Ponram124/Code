@@ -1,0 +1,19 @@
+import pandas as pd
+
+# Create a dictionary with student details
+student_data = {
+    'Student ID': [1, 2, 3, 4, 5],
+    'First Name': ['John', 'Emma', 'Michael', 'Emily', 'Daniel'],
+    'Last Name': ['Smith', 'Johnson', 'Williams', 'Jones', 'Brown'],
+    'Date of Birth': ['2000-05-10', '2001-03-15', '2000-11-22', '2002-01-05', '2001-07-30'],
+    'Grade/Year Level': [12, 11, 12, 10, 11],
+    'Email': ['john.smith@example.com', 'emma.johnson@example.com', 'michael.williams@example.com',
+              'emily.jones@example.com', 'daniel.brown@example.com'],
+    'Phone Number': ['123-456-7890', '456-789-0123', '789-012-3456', '234-567-8901', '567-890-1234']
+}
+
+# Create a DataFrame from the student data
+df = pd.DataFrame(student_data)
+
+# Display the data store view
+print(df)

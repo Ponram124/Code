@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.counter {
+  font-size: 3rem;
+}
+
+#minutes,
+#seconds {
+  padding: 0.25rem;
+}
